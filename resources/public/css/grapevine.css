@@ -1,0 +1,46 @@
+body,html {
+	min-height: 100%;
+}
+.dz-progress{
+	display: none !important;
+}
+div.dz-clickable {
+	border-style: solid;
+	border-color: #7FDBFF;
+	border-radius: 25px;
+	padding: 104px;
+	background: none;
+}
+div.dz-message {
+	color: #AAAAAA;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 1.6em;
+	font-family: 'Lato', sans-serif;
+}
+h1.title {
+	font-size: 3.1em;
+	padding: 25px;
+	color:#AAAAAA;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+h4.subtitle{
+	color:#AAAAAA;
+}
+li.list-group-item {
+	border: 0 none;
+	font-size: 1.5em;
+	color:#AAAAAA;
+	font-family: 'Lato', sans-serif;
+}
+ul.list-group {
+	border-left-style: dashed;
+	border-color: #AAAAAA;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+span.badge-pill {
+	font-family: 'Lato', sans-serif;
+	background-color: #7FDBFF;
+	font-size: 0.9em;
+}

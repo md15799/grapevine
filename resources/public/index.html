@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lato" rel="stylesheet">
+	<link rel="stylesheet" href="css/grapevine.css">
+	<meta name="viewport" content="width=device-width", intial-scale="1.0">
+	<title>
+		Homepage
+	</title>
+</head>
+<body>
+	<div class="container">
+		<div class="title text-center">
+			<h1 class="title">Word It Through the Grapevine <img width="110" height="95" src="Drawing.jpeg"/></h1>
+		</div>
+		<div class="dropzone col-sm-8 col-md-8 col-sm-offset-0 col-md-offset-0" id="mydz"></div>
+		<div class="col-sm-4 col-md-4 col-sm-offset-0 col-md-offset-0">
+			<ul class="list-group" id="mytable">
+				<li class="list-group-item justify-content-between" id="filename">Name</li>
+				<li class="list-group-item justify-content-between" id="wordcount">Word Count</li>
+				<li class="list-group-item justify-content-between" id="linecount">Line Count</li>
+				<li class="list-group-item justify-content-between" id="mean">Mean Word Length</li>
+				<li class="list-group-item justify-content-between" id="mode">Mode Word Length</li>
+				<li class="list-group-item justify-content-between" id="median">Median Word Length</li>
+				<li class="list-group-item justify-content-between" id="letter">Most Common Letter</li>
+			</ul>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.3.0/dropzone.js"></script>
+	<script src="/javascript/grapevine.js"></script>
+</body>
+</html>
