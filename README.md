@@ -1,3 +1,10 @@
+Web application to provide the following statistics:
+- Whitespace delimited word count
+- Line count
+- Mean, mode and median letters per word (1 decimal place)
+- Most common letter
+
+
 Build using Leiningen:
 
     lein repl
